@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+ 	font-family: 'Lora', serif; 
+	background-color:#61B1C6;
+	margin: 0 1%;
+}
+     .wrapper {
+	width: 100%;
+	background-color:#384346;
+	
+}
+.mainnav ul{
+ padding: 0;
+}
+.mainnav ul li{
+   border:1px solid black;
+    list-style: none;
+}
+.mainnav ul li a{
+    display: block;
+    text-decoration:none;
+    text-align: center;
+}
+.masthead{
+    background: url("http://lorempixel.com/600/400/cats/")no-repeat;
+    background-size: cover;
+    text-align: center;
+    line-height: 3;
+    font-size: 20px;
+    background-position: center;
+    color:#464305;
+    text-shadow: -2px -2px 2px #C6C157;
+}
+.mainnav {
+
+	font-weight: bolder;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	text-align: center;
+    color:#938C0B;
+}
+
+
+
+nav a, nav a:link {
+color:whitesmoke;
+font-weight: bold;
+text-decoration: none;
+}
+nav a:hover {
+	text-decoration: none;
+    background-color: burlywood;
+    display: block;
+}
+nav ul{
+	display: block; 
+	background: #053946;
+	list-style-type: none;
+	padding: 0;
+}
+nav li{
+display:block;
+}
+
+
+.content {
+
+	background-color: #61B1C6;
+    text-align: justify;
+    color:#464642;
+}
+
+.content .primary {
+	padding: 1%;
+	}
+
+.content .primary p { 
+	padding-bottom: 1%; 
+	padding-top: 1%;
+}
+  .content .primary p .left { 
+  	width: 100%; 
+  	padding-bottom: 1%;
+}
+
+.content .primary p .right {
+	width: 100%; 
+	padding-bottom: 1%;
+}
+.primary h2 { 
+	padding-bottom: 1%;
+}
+
+
+.side{
+	margin: 3% auto;
+	background-color: #0B7793;
+	padding:1%;
+	text-align: justify;
+    color:#C6BD0F;
+	
+}
+
+.side p { 
+	padding-bottom: 1%; 
+	padding-top: 1%;
+}
+.side p .right {
+	width: 100%; 
+	padding-bottom: 1%; 
+	padding-top: 1%;
+}
+.side h2 { 
+	padding-bottom: 1%;
+}
+
+.footer {
+	padding: 1%;
+	margin-bottom: 3%;
+	font-style: italic;
+	background: #61B1C6;
+    color:#C6C157;
+}
+
+@media all and (min-width: 35em) and (max-width: 60em){
+
+	.mainnav ul li a{
+		display: block;
+	}
+	.mainnav ul li{
+		float: left;
+		width: 25%;
+		display: inline-block;
+	}
+
+
+
+	.content{
+		margin-top: 2%;
+		width: 63%;
+		float: left;
+	}
+
+	.side{
+		width: 34%;
+		float: right;
+		margin-top: 2%;
+	}
+
+	.footer{
+		clear: both;
+	}
+}
+
+@media all and (min-width: 60em){
+	body{
+		margin: 0;
+	}
+
+	.wrapper{
+		padding-left: 1%;
+    	margin-top: 6rem;
+    	padding-right: 1%;
+	}
+h1{
+	text-align: left;
+	padding-left: 1.5%;
+	 
+}
+	.masthead{
+		position: absolute;
+		width: 100%;
+		top: 0;
+		left: 0;
+	}
+   .mainnav ul li a{
+    text-align: left;
+    padding-left: 1%;
+   }
+	.mainnav{
+		float: left;
+		width: 20%;
+	}
+
+	.content{
+		float: left;
+		width: 54%;
+		margin-left: 1%;
+		margin-top: 3%;
+		-webkit-column-count: 2;
+	}
+
+	.side{
+		width: 24%;
+		margin-left: 1%;
+		float: right;
+	}
+
+	.footer{
+		clear: both;
+	}
+}
