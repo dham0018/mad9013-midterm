@@ -157,7 +157,7 @@ display:block;
 	}
 }
 
-@media all and (min-width: 60em){
+@media all and (min-width: 59.9em){
 	body{
 		margin: 0;
 	}
@@ -177,14 +177,19 @@ h1{
 		width: 100%;
 		top: 0;
 		left: 0;
+        
 	}
    .mainnav ul li a{
     text-align: left;
     padding-left: 7%;
+    
    }
 	.mainnav{
 		float: left;
 		width: 20%;
+           padding-bottom: 22vw;
+    background: url("http://lorempixel.com/600/400/cats/") no-repeat center;
+        background-size: 100% auto;
 	}
 
 	.content{
